@@ -1,2 +1,5 @@
 # driver_callback_bypass_1909
 研究和移除各种内核回调,在anti anti cheat的路上越走越远
+
+# 测试系统
+全部代码运行在1909系统下(Microsoft Windows [版本 10.0.18363.592])
