@@ -9,3 +9,10 @@
 
 # 最新想法
 使用shellcode在微软官方驱动里起一个CmRegisterCallback回调,在回调中跳转到我们的处理函数
+
+# 待测试
+修改PspNotifyEnableMask为00000009,创建和退出进程时就不会触发回调
+
+修改PspNotifyEnableMask为00000007,创建和退出线程时就不会触发回调
+
+修改PspNotifyEnableMask为0000000e,就不会触发模块回调
